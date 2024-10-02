@@ -7,7 +7,7 @@ env:
   IMAGE_NAME: test
 jobs:
   call_workflow_build_and_test:
-    uses: ./.github/workflows/dotnet-desktop.yml
+    uses: ./.github/workflows/dotnet.yml
   
   push_to_registry:
     name: Push Docker image to Docker Hub
